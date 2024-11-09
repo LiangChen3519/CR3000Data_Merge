@@ -46,8 +46,24 @@ public class DateManager
     }
 
 
-    public void DateSetter(string startDate, string endDate)
+    public List<DateTime> DateSetter(DateTime startDate, DateTime endDate, int timeSpan)
     {
+        if (endDate < startDate)
+        {
+            throw new ArgumentException("endDate cannot be before startDate");
+        }
+        // get round down of the startdate
+        DateTime flooredStartTime = startDate.AddMinutes(-startDate.Minute).AddSeconds(-startDate.Second);
+        // get round up of the enddate
+        DateTime upEndTime = endDate.AddMinutes(60 - endDate.Minute)
+            .AddSeconds(-endDate.Second);
         
+        List<DateTime> fullSeries = [];
+
+        for (var time = flooredStartTime; time <= upEndTime; time = time.AddMinutes(timeSpan) )
+        {
+            fullSeries.Add(time);
+        }
+        return fullSeries;
     }
 }
