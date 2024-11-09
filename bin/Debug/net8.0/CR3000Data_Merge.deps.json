@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CR3000Data_Merge/1.0.0": {
+        "runtime": {
+          "CR3000Data_Merge.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CR3000Data_Merge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
