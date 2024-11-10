@@ -12,3 +12,4 @@ C:\Users\liangch\OneDrive - University of Eastern Finland\Documents\MY_C#\CR3000
 C:\Users\liangch\OneDrive - University of Eastern Finland\Documents\MY_C#\CR3000Data_Merge\CR3000Data_Merge\obj\Debug\net8.0\CR3000Data_Merge.pdb
 C:\Users\liangch\OneDrive - University of Eastern Finland\Documents\MY_C#\CR3000Data_Merge\CR3000Data_Merge\obj\Debug\net8.0\CR3000Data_Merge.genruntimeconfig.cache
 C:\Users\liangch\OneDrive - University of Eastern Finland\Documents\MY_C#\CR3000Data_Merge\CR3000Data_Merge\obj\Debug\net8.0\ref\CR3000Data_Merge.dll
+C:\Users\liangch\OneDrive - University of Eastern Finland\Documents\MY_C#\CR3000Data_Merge\CR3000Data_Merge\obj\Debug\net8.0\CR3000Data_Merge.sourcelink.json

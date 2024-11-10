@@ -26,9 +26,17 @@ class Program
        var startDate = DateTime.Parse(results.Item1);
        var endDate = DateTime.Parse(results.Item2);
        var results2 = dateManager.DateSetter(startDate, endDate,30);
-       foreach (var date in results2)
+       // check the data merger module
+       DataMerger md = new DataMerger()
        {
-           Console.WriteLine(date);
+           PathList = fileLists,
+       };
+       var myHeader = md.ConsolidateHeaders();
+       Console.WriteLine("we got the dictionary");
+       //print the dictionary
+       foreach (var pair in myHeader)
+       {
+           Console.WriteLine($"{pair.Key}: {pair.Value} \n");
        }
        
     }
