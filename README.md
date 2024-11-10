@@ -7,3 +7,9 @@ Here are C# programs for merge all data file in CR3000 data logger. The aims are
 
 Why we need to these full times series data file, because it helps for further processes, for example intergrated with
 ERA5-LAND data series to gap-fill the missing part. In the future, the gapfill part will be also considered.
+
+
+## todo list
+
+- Reverise the time series produce code, we should combine all datetime first
+- Resampling process, for example, to hourly, to daily or half-hourly
