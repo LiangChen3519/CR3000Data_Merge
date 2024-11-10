@@ -1,4 +1,4 @@
-Here are C# programmer for merge all data file in CR3000 data logger. The aims are:
+Here are C# programs for merge all data file in CR3000 data logger. The aims are:
 
 - Get strat datetime and end datetime corss all files.
 - Check all variables and remove duplicated one cross all files.
