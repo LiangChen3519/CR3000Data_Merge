@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CR3000Data_Merge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73df3c7aaeef85a8bc59bf938c576cf66d16626b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3d4f721962824bda1ffc6b3fb97263005241a43")]
 [assembly: System.Reflection.AssemblyProductAttribute("CR3000Data_Merge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CR3000Data_Merge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

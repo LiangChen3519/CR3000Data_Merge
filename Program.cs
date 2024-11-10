@@ -30,6 +30,8 @@ class Program
        DataMerger md = new DataMerger()
        {
            PathList = fileLists,
+           OutputFilePath = "finnal.dat",
+           FullTimeSeries = results2,
        };
        var myHeader = md.ConsolidateHeaders();
        Console.WriteLine("we got the dictionary");
@@ -39,5 +41,8 @@ class Program
            Console.WriteLine($"{pair.Key}: {pair.Value} \n");
        }
        
+       // check output data
+       md.MergeData(myHeader);
+        Console.WriteLine("we got the final data");
     }
 }
